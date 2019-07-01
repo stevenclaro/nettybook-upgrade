@@ -32,7 +32,8 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<FullHttpReque
 		 FullHttpResponse response = new DefaultFullHttpResponse(
 	                HTTP_1_1, HttpResponseStatus.OK, body);
 		 response.headers().set(HttpHeaderNames.CONTENT_LENGTH, body.readableBytes());
-		 ctx.writeAndFlush(response).sync();
+		 //ctx.writeAndFlush(response).sync();
+		ctx.writeAndFlush(response);
 		 System.out.println("Http Server send response succeed : " + response);		 
 	}
 	

@@ -39,12 +39,12 @@ public class HttpResponse {
 		return header;
 	}
 
-//	public byte [] body()
-//	{
-//		return body = response.content() != null ?
-//				response.content().array() : null;
-//	}
-
+	/*public byte [] body()
+	{
+		return body = response.content() != null ?
+				response.content().array() : null;
+	}
+*/
 //	public byte [] body()
 //	{
 //		body = new byte[response.content().readableBytes()];

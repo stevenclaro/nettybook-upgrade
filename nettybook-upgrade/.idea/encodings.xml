@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/DaemonT1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/DaemonT2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/EchoExitServer1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/EchoExitServer2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/EchoExitServer3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/EchoExitServer4.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/Shutdown1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/SignalHandlerTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo13/ServiceTraceServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo18/HttpSessions.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo2/MockServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo3/PoolByteBufPerformanceTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientAys.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpServerHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo5/EchoServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo5/EchoServerHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo5/LoadRunnerClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo5/LoadRunnerClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo5/LoadRunnerSleepClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo5/LoadRunnerWaterClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo6/ApiGatewayClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo6/ApiGatewayClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo6/ApiGatewayServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo6/ApiGatewayServerHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsDiscardServerHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServerHandler.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

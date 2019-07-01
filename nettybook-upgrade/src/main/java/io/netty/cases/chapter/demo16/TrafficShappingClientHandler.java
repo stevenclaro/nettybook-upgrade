@@ -42,7 +42,7 @@ public class TrafficShappingClientHandler extends ChannelInboundHandlerAdapter {
     public void channelActive(ChannelHandlerContext ctx) {
         scheduledExecutorService.scheduleAtFixedRate(() -> {
             ByteBuf buf = null;
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 100; i++) {
                 buf = Unpooled.copiedBuffer(ECHO_REQ, DELIMITER.getBytes());
                 SEQ.getAndAdd(buf.readableBytes());
                 if (ctx.channel().isWritable())

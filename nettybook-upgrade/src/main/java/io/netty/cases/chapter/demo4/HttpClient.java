@@ -36,6 +36,7 @@ public class HttpClient {
                 }
             });            
             ChannelFuture f = b.connect(host, port).sync();
+            //绑定之后，就会产生ChannelFuture
             channel = f.channel();
         
     }
@@ -43,9 +44,11 @@ public class HttpClient {
 	private HttpResponse blockSend(FullHttpRequest request) throws InterruptedException, ExecutionException
 	{
           request.headers().set(HttpHeaderNames.CONTENT_LENGTH, request.content().readableBytes());
+          //获取channel的默认返回Promise
           DefaultPromise<HttpResponse> respPromise = new DefaultPromise<HttpResponse>(channel.eventLoop());
           handler.setRespPromise(respPromise);
           channel.writeAndFlush(request);
+          //采用同步的调用方式
           HttpResponse response = respPromise.get();
           if (response != null)
         	  System.out.print("The client received http response, the body is :" + new String(response.body()));

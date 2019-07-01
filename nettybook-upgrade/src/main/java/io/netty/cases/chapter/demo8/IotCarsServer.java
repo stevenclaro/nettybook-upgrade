@@ -45,6 +45,7 @@ public final class IotCarsServer {
                      ChannelPipeline p = ch.pipeline();
 //                     p.addLast(new IotCarsServerHandler());
                      p.addLast(new IotCarsDiscardServerHandler());
+                    /* p.addLast(new IotCarsServerHandler());*/
                      p.addLast();
                  }
              });
