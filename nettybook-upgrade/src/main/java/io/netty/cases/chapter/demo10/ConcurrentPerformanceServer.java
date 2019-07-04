@@ -17,6 +17,7 @@ package io.netty.cases.chapter.demo10;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.UnpooledByteBufAllocator;
+import io.netty.cases.chapter.demo13.ServiceTraceServerHandler;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
@@ -49,7 +50,7 @@ public final class ConcurrentPerformanceServer {
                  public void initChannel(SocketChannel ch) throws Exception {
                      ch.config().setAllocator(UnpooledByteBufAllocator.DEFAULT);
                      ChannelPipeline p = ch.pipeline();
-//                     p.addLast(executor, new ServiceTraceServerHandler());
+                     //p.addLast(executor, new ServiceTraceServerHandler());
                      p.addLast(serviceHandler);
                  }
              }).childOption(ChannelOption.SO_RCVBUF, 8 * 1024)

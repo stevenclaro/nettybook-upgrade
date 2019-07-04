@@ -32,13 +32,13 @@ public class ConcurrentPerformanceClientHandlerV2 extends ChannelInboundHandlerA
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
         scheduledExecutorService.scheduleAtFixedRate(()->
-        {
+        {//把ByteBuf放入到循环外面
                 ByteBuf firstMessage = Unpooled.buffer(ConcurrentPerformanceClient.MSG_SIZE);
                 for (int k = 0;  k < firstMessage.capacity();  k ++) {
                     firstMessage.writeByte((byte) k);
                 }
                 ctx.writeAndFlush(firstMessage);
-        },0,1000, TimeUnit.MILLISECONDS);
+        },0,10000, TimeUnit.MILLISECONDS);
     }
 
     @Override

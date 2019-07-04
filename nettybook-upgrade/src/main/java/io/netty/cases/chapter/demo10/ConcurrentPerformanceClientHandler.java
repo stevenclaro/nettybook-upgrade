@@ -35,14 +35,14 @@ public class ConcurrentPerformanceClientHandler extends ChannelInboundHandlerAda
         scheduledExecutorService.scheduleAtFixedRate(()->
         {
             for(int i = 0; i < 100; i++)
-            {
+            {//把ByteBuf放入到循环里面
                 ByteBuf firstMessage = Unpooled.buffer(ConcurrentPerformanceClient.MSG_SIZE);
                 for (int k = 0;  k < firstMessage.capacity();  k ++) {
                     firstMessage.writeByte((byte)k);
                 }
                 ctx.writeAndFlush(firstMessage);
             }
-        },0,1000, TimeUnit.MILLISECONDS);
+        },0,100000, TimeUnit.MILLISECONDS);
     }
 
     @Override

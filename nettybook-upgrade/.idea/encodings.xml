@@ -10,8 +10,14 @@
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/EchoExitServer4.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/Shutdown1.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/SignalHandlerTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandlerV2.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo13/ServiceTraceServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo13/ServiceTraceServerHandler.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo18/HttpSessions.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo2/MockServer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo3/PoolByteBufPerformanceTest.java" charset="GBK" />

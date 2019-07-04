@@ -2,140 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7153608d-cda3-4460-8535-dd23738c92c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientAys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/EchoExitServer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/EchoExitServer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo16/TrafficShappingClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo16/TrafficShappingClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/io.netty.cases.chapter/nettybook-upgrade/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/io.netty.cases.chapter/nettybook-upgrade/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/DaemonT1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/DaemonT1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/DaemonT1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/DaemonT1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/DaemonT2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/DaemonT2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/DaemonT2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/DaemonT2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer4$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/EchoExitServer4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/Shutdown1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/Shutdown1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/SignalHandlerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/SignalHandlerTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/SignalHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo1/SignalHandlerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandlerV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandlerV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/MulChannelPerformanceClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/MulChannelPerformanceClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/MulChannelPerformanceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo10/MulChannelPerformanceClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/CloneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/CloneTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/MockEdgeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/MockEdgeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/RestfulReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/RestfulReq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/RestfulReqV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/RestfulReqV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/UserInfoV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo12/UserInfoV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceProfileServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceProfileServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceServerHandlerV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo13/ServiceTraceServerHandlerV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo15/EventTriggerServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShapingServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShapingServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo16/TrafficShappingServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/DiscardServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/HttpSessions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo18/HttpSessions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientLeak$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientLeak$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientLeak.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientLeak.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientPool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientPool$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientPoolError1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientPoolError1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientPoolError1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/ClientPoolError1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/MockServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/MockServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/MockServer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/MockServer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/MockServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo2/MockServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/PoolByteBufPerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/PoolByteBufPerformanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/PooledByteBufClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/PooledByteBufClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/PooledByteBufClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/PooledByteBufClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/PooledByteBufClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/PooledByteBufClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServerHandlerV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServerHandlerV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServerUnpooled$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServerUnpooled$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServerUnpooled.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo3/RouterServerUnpooled.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo4/HttpServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/EchoServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/EchoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/EchoServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerClientHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerSleepClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerSleepClientHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerSleepClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerSleepClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerWaterClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerWaterClientHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerWaterClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo5/LoadRunnerWaterClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo6/ApiGatewayServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/NoThreadSecurityClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/NoThreadSecurityClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/NoThreadSecurityClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/NoThreadSecurityClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/NoThreadSecurityClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/NoThreadSecurityClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/SharableClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/SharableClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/ThreadSecurityServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/ThreadSecurityServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/ThreadSecurityServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/ThreadSecurityServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/ThreadSecurityServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo7/ThreadSecurityServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsDiscardServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsDiscardServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/netty/cases/chapter/demo8/IotCarsServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/netty/cases/chapter/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/netty/cases/chapter/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandlerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandlerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -151,46 +23,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsDiscardServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="338">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientAys.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="219">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2034#2476#0" expanded="true" />
+                <element signature="e#2475#2476#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandlerV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="66" />
+            <state relative-caret-position="416">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo13/ServiceTraceServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+            <state relative-caret-position="18">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsDiscardServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            <state relative-caret-position="27">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -198,31 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.28.Final/netty-all-4.1.28.Final-sources.jar!/io/netty/channel/CombinedChannelDuplexHandler.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo2/ClientPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="420">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -230,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo3/RouterClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="152">
               <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
@@ -247,6 +128,8 @@
       <find>timeuni</find>
       <find>IdleStateHandler</find>
       <find>addListener</find>
+      <find>execute</find>
+      <find>Default</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -271,6 +154,10 @@
         <option value="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientAys.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsDiscardServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandlerV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.java" />
       </list>
     </option>
   </component>
@@ -325,9 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="78" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -337,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -434,15 +321,33 @@
               <item name="chapter" type="462c0819:PsiDirectoryNode" />
               <item name="demo8" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nettybook-upgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettybook-upgrade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="demo10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettybook-upgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettybook-upgrade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="demo13" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Netty-SpringMVC" />
@@ -470,13 +375,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IotCarsClient">
-    <configuration name="DiscardClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.netty.cases.chapter.demo18.DiscardClient" />
+  <component name="RunManager" selected="Application.ConcurrentPerformanceClient">
+    <configuration name="ConcurrentPerformanceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.cases.chapter.demo10.ConcurrentPerformanceClient" />
       <module name="nettybook-upgrade" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.netty.cases.chapter.demo18.*" />
+          <option name="PATTERN" value="io.netty.cases.chapter.demo10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrentPerformanceServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.cases.chapter.demo10.ConcurrentPerformanceServer" />
+      <module name="nettybook-upgrade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.cases.chapter.demo10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,19 +404,6 @@
     </configuration>
     <configuration name="HttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.netty.cases.chapter.demo4.HttpClient" />
-      <module name="nettybook-upgrade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.netty.cases.chapter.demo4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.netty.cases.chapter.demo4.HttpServer" />
       <module name="nettybook-upgrade" />
       <extension name="coverage">
         <pattern>
@@ -538,11 +443,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrentPerformanceClient" />
+        <item itemvalue="Application.ConcurrentPerformanceServer" />
         <item itemvalue="Application.IotCarsClient" />
         <item itemvalue="Application.IotCarsServer" />
         <item itemvalue="Application.HttpClient" />
-        <item itemvalue="Application.HttpServer" />
-        <item itemvalue="Application.DiscardClient" />
       </list>
     </recent_temporary>
   </component>
@@ -577,17 +482,18 @@
       <workItem from="1561865485939" duration="2320000" />
       <workItem from="1561957833232" duration="1227000" />
       <workItem from="1561984831961" duration="2750000" />
+      <workItem from="1562149861832" duration="5515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83407000" />
+    <option name="totallyTimeSpent" value="88922000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="78" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2228145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -740,55 +646,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo2/ClientPoolError1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo5/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo6/ApiGatewayServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.28.Final/netty-all-4.1.28.Final.jar!/io/netty/handler/codec/http/HttpServerCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="63" column="69" selection-start-line="63" selection-start-column="69" selection-end-line="63" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo6/ApiGatewayClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo7/ThreadSecurityServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/Shutdown1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1051,69 +908,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.28.Final/netty-all-4.1.28.Final-sources.jar!/io/netty/channel/CombinedChannelDuplexHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo2/ClientPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo3/RouterClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="532">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientAys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
+        <state relative-caret-position="874">
           <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="494">
           <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="456">
           <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        <state relative-caret-position="361">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.28.Final/netty-all-4.1.28.Final-sources.jar!/io/netty/channel/CombinedChannelDuplexHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo2/ClientPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo3/RouterClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo8/IotCarsDiscardServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        <state relative-caret-position="338">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo13/ServiceTraceServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2034#2476#0" expanded="true" />
+            <element signature="e#2475#2476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandlerV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
         </state>
       </provider>
     </entry>
