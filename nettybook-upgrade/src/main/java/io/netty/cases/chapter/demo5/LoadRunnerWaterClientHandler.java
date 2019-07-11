@@ -69,7 +69,14 @@ public class LoadRunnerWaterClientHandler extends ChannelInboundHandlerAdapter {
                         msg = Unpooled.wrappedBuffer("Netty OOM Example".getBytes());
                         ctx.writeAndFlush(msg);
                     } else {
+                        //获取积压消息个数
+
+                        //问题1：ctx.channel().unsafe().outboundBuffer().size()实际上计算的是上次flushed时，发送队列中积压的消息，如果每次调用ctx.write（）时都调用一次ctx.flush()，则ctx.channel().unsafe().outboundBuffer().size()是准确的，如果周期性执行或者批量发送，write和flush不是成对出现的，则通过该方法获取的积压消息个数不精确。
+                        //问题2：无法计算积压消息的内存占用，因为不同业务消息编码之后的长度不确定，因此，无法计算积压消息的实际内存占用。
+                        //https://mp.weixin.qq.com/s/KeL_I0Na-DpX49Ka32IS9A?  Netty流控小技巧,李林峰写的内容
                         LOG.warning("The write queue is busy : " + ctx.channel().unsafe().outboundBuffer().nioBufferSize());
+                        System.out.println("The write queue is busy : " + ctx.channel().unsafe().outboundBuffer().totalPendingWriteBytes());
+                        System.out.println("The write queue is busy : " + ctx.channel().unsafe().outboundBuffer().nioBufferSize());
                     }
                 }
             }

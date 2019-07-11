@@ -50,6 +50,7 @@ public class HttpClient {
           channel.writeAndFlush(request);
           //采用同步的调用方式
           HttpResponse response = respPromise.get();
+          //如果采用异步的方式，那么就在ChannelRead中获取就可以了
           if (response != null)
         	  System.out.print("The client received http response, the body is :" + new String(response.body()));
           return response;

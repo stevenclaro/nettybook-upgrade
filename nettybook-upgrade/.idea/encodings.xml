@@ -16,6 +16,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandler.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo10/ConcurrentPerformanceServerHandlerV2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo13/ServiceTraceProfileServerHandler.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo13/ServiceTraceServer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo13/ServiceTraceServerHandler.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo18/HttpSessions.java" charset="GBK" />

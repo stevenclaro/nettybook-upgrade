@@ -9,8 +9,10 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.http.*;
 import io.netty.util.concurrent.DefaultPromise;
+import io.netty.util.concurrent.FutureListener;
 
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 /**
  * Created by 李林峰 on 2018/8/11.
@@ -45,9 +47,20 @@ public class HttpClientAys {
           //获取channel的默认返回Promise
           DefaultPromise<HttpResponse> respPromise = new DefaultPromise<HttpResponse>(channel.eventLoop());
           handler.setRespPromise(respPromise);
-        //  channel.writeAndFlush(request);
+          channel.writeAndFlush(request);
           //采用异步的调用方式
         //但是问题是，如何获取处理Future的结果？
+       /* respPromise.addListener(
+                new ChannelFutureListener<HttpResponse>(){
+        @Override
+        public void operationComplete(ChannelFuture<HttpResponse> future) throws Exception {
+            if(future.isSuccess())
+            {
+                Object response = future.get();
+            }
+        }
+        }
+        );*/
         channel.writeAndFlush(request).addListener(
         new ChannelFutureListener() {
             @Override
@@ -55,15 +68,25 @@ public class HttpClientAys {
                 if(future.isSuccess())
                 {
                     //HttpResponse response = future.get();
+
+
+                        System.out.print("The client received is :" +future.get().toString() );
+
+                    Object response = future.get();
+                    HttpResponse res=(HttpResponse)response;
+                    if (res != null)
+                        System.out.print("The client received http response, the body is :" + new String(res.body()));
+                    System.out.print("The client received is :" +future.channel().toString() );
                 }
 
             }
         });
 
-          HttpResponse response = respPromise.get();
+         /* HttpResponse response = respPromise.get();
           if (response != null)
-        	  System.out.print("The client received http response, the body is :" + new String(response.body()));
-          return response;
+        	  System.out.print("The client received http response, the body is :" + new String(response.body()));*/
+          //return response;
+        return null;
 	}
 
     public static void main(String[] args) throws Exception {
