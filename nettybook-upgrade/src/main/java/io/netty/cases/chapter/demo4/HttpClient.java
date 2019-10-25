@@ -47,7 +47,9 @@ public class HttpClient {
           //获取channel的默认返回Promise
           DefaultPromise<HttpResponse> respPromise = new DefaultPromise<HttpResponse>(channel.eventLoop());
           handler.setRespPromise(respPromise);
-          channel.writeAndFlush(request);
+          ChannelFuture future= channel.writeAndFlush(request);
+          System.out.println(respPromise.toString());
+            System.out.println(future.toString());
           //采用同步的调用方式
           HttpResponse response = respPromise.get();
           //如果采用异步的方式，那么就在ChannelRead中获取就可以了
