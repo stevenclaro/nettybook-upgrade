@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/DaemonT1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/DaemonT2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/EchoExitServer1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/Shutdown1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/SignalHandlerTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo2/MockServer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClient.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientAys.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpServerHandler.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

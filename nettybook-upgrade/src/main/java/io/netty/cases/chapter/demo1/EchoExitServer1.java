@@ -39,3 +39,4 @@ public class EchoExitServer1 {
         }
     }
 }
+/*绑定之后，执行finally直接退出了*/
