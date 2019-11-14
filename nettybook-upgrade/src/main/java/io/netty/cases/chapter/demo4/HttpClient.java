@@ -13,6 +13,8 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.http.*;
 import io.netty.util.concurrent.DefaultPromise;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.ExecutionException;
 
 /**
@@ -53,8 +55,11 @@ public class HttpClient {
           //采用同步的调用方式
           HttpResponse response = respPromise.get();
           //如果采用异步的方式，那么就在ChannelRead中获取就可以了
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS");
+// 输出字符串
+        //System.out.println(df.format(new Date()));
           if (response != null)
-        	  System.out.print("The client received http response, the body is :" + new String(response.body()));
+        	  System.out.print("The client received http response, the body is :" + new String(response.body())+ df.format(new Date())+"HttpClient"+"\r\n");
           return response;
 	}
 

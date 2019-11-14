@@ -63,7 +63,7 @@ public class LoadRunnerSleepClientHandler extends ChannelInboundHandlerAdapter {
                 while(true)
                 {
                     byte [] body = new byte[SIZE];
-                    msg = Unpooled.wrappedBuffer(body);
+                    msg = Unpooled.wrappedBuffer(body);//返回一个包装了给定数据的ByteBuf
                     ctx.writeAndFlush(msg);
                     try {
                         TimeUnit.MILLISECONDS.sleep(1);

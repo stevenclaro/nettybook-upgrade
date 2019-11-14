@@ -50,7 +50,7 @@ public class TrafficShappingServer {
 			public void initChannel(SocketChannel ch) throws Exception {
 				ch.pipeline().addLast("Channel Traffic Shaping",new ChannelTrafficShapingHandler(1024 * 1024,1024 * 1024, 1000));
 			    ByteBuf delimiter = Unpooled.copiedBuffer("$_".getBytes());
-			    ch.pipeline().addLast(new DelimiterBasedFrameDecoder(2048 * 1024,delimiter));
+			    ch.pipeline().addLast(new DelimiterBasedFrameDecoder(2048 * 1024,delimiter));//分割符
 			    ch.pipeline().addLast(new StringDecoder());
 			    ch.pipeline().addLast(new TrafficShapingServerHandler());
 			}

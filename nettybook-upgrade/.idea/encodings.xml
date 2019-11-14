@@ -9,8 +9,9 @@
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo1/SignalHandlerTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo2/MockServer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClient.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientAys.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpClientHandler.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/HttpServerHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/io/netty/cases/chapter/demo4/ays/HttpClientAys.java" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

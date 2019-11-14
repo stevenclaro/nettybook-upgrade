@@ -43,13 +43,13 @@ public class TrafficShappingClientHandler extends ChannelInboundHandlerAdapter {
         scheduledExecutorService.scheduleAtFixedRate(() -> {
             ByteBuf buf = null;
             for (int i = 0; i < 100; i++) {
-                buf = Unpooled.copiedBuffer(ECHO_REQ, DELIMITER.getBytes());
+                buf = Unpooled.copiedBuffer(ECHO_REQ, DELIMITER.getBytes());//返回一个复制了给定数据的ByteBuf
                 SEQ.getAndAdd(buf.readableBytes());
                 if (ctx.channel().isWritable())
                     ctx.write(buf);
             }
             ctx.flush();
-            int counter = SEQ.getAndSet(0);
+            int counter = SEQ.getAndSet(0);//先取到放入counter中，然后对SEQ进行置空值
             System.out.println("The client send rate is : " + counter + " bytes/s");
         }, 0, 1000, TimeUnit.MILLISECONDS);
     }
